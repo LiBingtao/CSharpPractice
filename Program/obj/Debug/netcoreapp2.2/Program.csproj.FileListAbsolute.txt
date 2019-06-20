@@ -1,0 +1,14 @@
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.csprojAssemblyReference.cache
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.csproj.CoreCompileInputs.cache
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.AssemblyInfoInputs.cache
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.AssemblyInfo.cs
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Program.deps.json
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Program.runtimeconfig.json
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Program.runtimeconfig.dev.json
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Program.dll
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Program.pdb
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Accounts.dll
+/Users/libingtao/C#/Program/bin/Debug/netcoreapp2.2/Accounts.pdb
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.csproj.CopyComplete
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.dll
+/Users/libingtao/C#/Program/obj/Debug/netcoreapp2.2/Program.pdb
