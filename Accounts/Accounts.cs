@@ -18,27 +18,27 @@ namespace Account
             return revenue;
         }
 
-        public void DisplayTotalRevenue(DateTime time) {
+        public string DisplayTotalRevenue(DateTime time) {
             var revenue = TotalRevenue(time);
-            Console.WriteLine($"TotalRevenue:{revenue.value}{revenue.currency}");
+            return $"TotalRevenue:{revenue.value}{revenue.currency}";
         }
 
         public Money TotalExpenditure(DateTime time) {
             return Calculator(time, AccountItem.IsSpending);
         }
 
-        public void DisplayTotalExpenditure(DateTime time) {
+        public string DisplayTotalExpenditure(DateTime time) {
             var expenditure = TotalExpenditure(time);
-            Console.WriteLine($"TotalExpenditure:{expenditure.value}{expenditure.currency}");
+            return $"TotalExpenditure:{expenditure.value}{expenditure.currency}";
         }
 
         public Money TotalIncome(DateTime time) {
             return Calculator(time, AccountItem.IsIncome);
         }
 
-        public void DisplayTotalIncome(DateTime time) {
+        public string DisplayTotalIncome(DateTime time) {
             var income = TotalIncome(time);
-            Console.WriteLine($"TotalIncome:{income.value}{income.currency}");
+            return $"TotalIncome:{income.value}{income.currency}";
         }
 
         public IEnumerable<AccountItem> Display(DateTime time) {
