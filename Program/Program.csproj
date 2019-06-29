@@ -53,6 +53,10 @@
       <Project>{d1fa7a48-fb2c-4d34-be0f-01e324327939}</Project>
       <Name>Accounts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Oven\Oven.csproj">
+      <Project>{71f0be28-579c-43c3-992d-32d395f4ab6b}</Project>
+      <Name>Oven</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
