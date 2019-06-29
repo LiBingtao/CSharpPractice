@@ -50,14 +50,19 @@ namespace Account
             return $"{name} Category:{category} Amount:{amount.value}{amount.currency.ToString()} Content:{content} Note:{note} Time:{occuredTime.ToString("MMMM dd,yy")}";
         }
 
-        public bool IsSpending()
+        public static bool IsSpending(AccountItem account)
         {
-            return category == Category.Spending;
+            return account.category == Category.Spending;
         }
 
-        public bool IsIncome()
+        public static bool IsIncome(AccountItem account)
         {
-            return category == Category.Income;
+            return account.category == Category.Income;
+        }
+
+        public bool IsSameMonthOfSameYear(DateTime time)
+        {
+            return occuredTime.Month == time.Month && occuredTime.Year == time.Year;
         }
     }
 }
