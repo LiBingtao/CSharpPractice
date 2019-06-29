@@ -49,5 +49,15 @@ namespace Account
         public override string ToString(){
             return $"{name} Category:{category} Amount:{amount.value}{amount.currency.ToString()} Content:{content} Note:{note} Time:{occuredTime.ToString("MMMM dd,yy")}";
         }
+
+        public bool IsSpending()
+        {
+            return category == Category.Spending;
+        }
+
+        public bool IsIncome()
+        {
+            return category == Category.Income;
+        }
     }
 }

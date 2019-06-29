@@ -26,7 +26,7 @@ namespace Account
         public Money TotalExpenditure(DateTime time){
             Money expenditure = new Money(0);
             foreach (var account in accounts){
-                if(account.occuredTime.Month == time.Month && account.category == Category.Spending) expenditure += account.amount;
+                if(IsSameMonthOfSameYear(account, time) && account.IsSpending()) expenditure += account.amount;
             }
             return expenditure;
         }
@@ -39,7 +39,7 @@ namespace Account
         public Money TotalIncome(DateTime time){
             Money income = new Money(0);
             foreach (var account in accounts){
-                if(account.occuredTime.Month == time.Month && account.category == Category.Income) income += account.amount;
+                if(IsSameMonthOfSameYear(account, time) && account.IsIncome()) income += account.amount;
             }
             return income;
         }
@@ -55,6 +55,11 @@ namespace Account
                     yield return account;
                 }
             }
+        }
+
+        private bool IsSameMonthOfSameYear(AccountItem account, DateTime time)
+        {
+            return account.occuredTime.Month == time.Month && account.occuredTime.Year == time.Year;
         }
     }
 }

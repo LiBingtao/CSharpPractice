@@ -28,6 +28,7 @@ namespace Program
             foreach(var info in accounts.Display(new DateTime(2019,6,30))){
                 Console.WriteLine(info.ToString());
             }
+            Console.ReadKey();
         }
     }
 }

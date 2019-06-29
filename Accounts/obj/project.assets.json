@@ -179,28 +179,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/libingtao/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\BLi28\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/libingtao/C#/Accounts/Accounts.csproj",
+      "projectUniqueName": "C:\\Users\\BLi28\\source\\repos\\CSharpPrictice\\CSharpPractice\\Accounts\\Accounts.csproj",
       "projectName": "Accounts",
-      "projectPath": "/Users/libingtao/C#/Accounts/Accounts.csproj",
-      "packagesPath": "/Users/libingtao/.nuget/packages/",
-      "outputPath": "/Users/libingtao/C#/Accounts/obj/",
+      "projectPath": "C:\\Users\\BLi28\\source\\repos\\CSharpPrictice\\CSharpPractice\\Accounts\\Accounts.csproj",
+      "packagesPath": "C:\\Users\\BLi28\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BLi28\\source\\repos\\CSharpPrictice\\CSharpPractice\\Accounts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/libingtao/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\BLi28\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\BLi28\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
